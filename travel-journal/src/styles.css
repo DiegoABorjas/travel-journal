@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    background-color: #202124;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    height: 55px;
+    background-color: #F55A5A;
+}
+
+.logo, .header-title {
+    background: none;
+}
+
+.entries-section {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    margin: 75px 40px;
+}
+
+.imageUrl {
+    width: 125px;
+    height: 168px;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.location-details {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.googleMapsUrl{
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+.title{
+    margin-top: 4px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.startDate, .endDate {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.description {
+    max-width: 375px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #e4e4e4;
+}
+
+.line-divider{
+    max-width: 50%;
+           
+}
